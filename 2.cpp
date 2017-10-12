@@ -38,9 +38,9 @@ float mean(int n[],int x)
 float median(int n[],int x)
 {
 float t;
-	for(int i;i<x;i++)
+	for(int i=0;i<x;i++)
 	{
-		for(int j;j<i;j++)
+		for(int j=0;j<i;j++)
 		{
 			if(n[j]>n[j+1])
 			{

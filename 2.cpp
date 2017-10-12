@@ -4,7 +4,7 @@ int lar(int n[],int x)
 {
 	int max;
 	max=n[0];
-	for(int i=0;i<x;i++)
+	for(int i=0;i<(x-1);i++)
 	{
 		if(max<n[i+1])
 		max=n[i+1];
@@ -31,7 +31,7 @@ float mean(int n[],int x)
 	{
 	       sum+=n[i];
 	}
-	mean=sum/10;
+	mean=sum/x;
 	return mean;
 }
 
